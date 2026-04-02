@@ -4,4 +4,3 @@ Thanks to [Leo](https://github.com/TX-Leo) for the amazing template. This reposi
 
 ## Contact
 - Email: yifutian@link.cuhk.edu.cn
-- Bilibili: https://space.bilibili.com/443271409
