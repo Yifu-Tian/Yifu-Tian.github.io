@@ -181,8 +181,8 @@ img {
 
 .map-frame {
   width: 100%;
-  max-width: 800px;
-  min-height: 260px;
+  max-width: 600px;
+  min-height: 160px;
 }
 
 .map-container div {
