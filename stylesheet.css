@@ -75,10 +75,11 @@ papertitle {
 
 .header {
   background-image: url('images/spacex.jpg');
-  background-size: cover;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
   background-position: center 35%;
   text-align: center;
-  padding: 7rem 0; /* 调整横幅高度，避免背景图过大 */
+  padding: 7rem 0; /* 进一步收窄横幅高度 */
   position: relative;
 }
 
@@ -198,7 +199,7 @@ footer {
   }
 
   .header {
-    padding: 4.5rem 0; /* 小屏同步收窄横幅高度 */
+    padding: 3.5rem 0; /* 小屏再收窄一档 */
   }
 
   .page-title {
