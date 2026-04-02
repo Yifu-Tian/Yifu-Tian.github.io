@@ -75,16 +75,15 @@ papertitle {
 
 .header {
   background-image: url('images/spacex.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center bottom;
-  background-color: #0e1b2a;
-  width: 40%;
-  max-width: 1200px;
-  height: 440px;
+  background-position: center 62%;
+  width: 100%;
+  max-width: none;
+  min-height: 360px;
   margin: 0 auto;
   text-align: center;
-  padding: 12rem 0;
+  padding: 0;
   position: relative;
 }
 
@@ -210,8 +209,8 @@ footer {
   }
 
   .header {
-    min-height: 240px;
-    background-position: center 30%;
+    min-height: 220px;
+    background-position: center 58%;
   }
 
   .page-title {
