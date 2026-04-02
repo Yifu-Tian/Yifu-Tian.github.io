@@ -76,9 +76,10 @@ papertitle {
 .header {
   background-image: url('images/spacex.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center 34%;
+  min-height: 460px;
   text-align: center;
-  padding: 14rem 0; /* 进一步收窄横幅高度 */
+  padding: 0;
   position: relative;
 }
 
@@ -174,6 +175,12 @@ img {
   padding: 20px 0;
 }
 
+.map-frame {
+  width: 100%;
+  max-width: 800px;
+  min-height: 260px;
+}
+
 .map-container div {
   max-width: 100%; /* 确保地图容器不会超出父元素 */
   margin: 0 auto;
@@ -198,7 +205,8 @@ footer {
   }
 
   .header {
-    padding: 3.5rem 0; /* 小屏再收窄一档 */
+    min-height: 240px;
+    background-position: center 30%;
   }
 
   .page-title {
