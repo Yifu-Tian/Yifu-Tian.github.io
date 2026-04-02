@@ -76,10 +76,10 @@ papertitle {
 .header {
   background-image: url('images/spacex.jpg');
   background-size: cover;
-  background-position: center 60%;
+  background-position: center 80%;
   min-height: 420px;
   text-align: center;
-  padding: 14rem 0;
+  padding: 12rem 0;
   position: relative;
 }
 
