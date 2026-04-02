@@ -181,7 +181,7 @@ img {
 
 .map-frame {
   width: 100%;
-  max-width: 560px;
+  max-width: 500px;
   height: 180px;
   margin: 0 auto;
   overflow: hidden;
