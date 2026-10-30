@@ -489,3 +489,38 @@ footer {
     height: 190px;
   }
 }
+
+.publication-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.publication-media {
+  flex: 0 0 220px;
+}
+
+.publication-media img {
+  display: block;
+  width: 220px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.text-container {
+  flex: 1;
+}
+
+/* 手机端自动改成上下布局 */
+@media (max-width: 700px) {
+  .publication-item {
+    flex-direction: column;
+  }
+
+  .publication-media,
+  .publication-media img {
+    width: 100%;
+    max-width: 320px;
+  }
+}
